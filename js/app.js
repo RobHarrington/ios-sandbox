@@ -148,7 +148,6 @@ _.extend(directory.dao.EmployeeDAO.prototype, {
                 tx.executeSql("INSERT INTO employee VALUES (13, 'Meredith', 'Palmer', 'Supplier Relations', 2, 'Scranton, PA', '570-555-8888', '570-777-2222', 'meredith@dundermifflin.com')");
                 tx.executeSql("INSERT INTO employee VALUES (14, 'Kelly', 'Kapoor', 'Customer Service Rep.', 2, 'Scranton, PA', '570-123-9654', '570-125-3666', 'kelly@dundermifflin.com')");
                 tx.executeSql("INSERT INTO employee VALUES (15, 'Toby', 'Flenderson', 'Human Resources', 1, 'Scranton, PA', '570-485-8554', '570-996-5577', 'tflenderson@dundermifflin.com')");
-                tx.executeSql("INSERT INTO employee VALUES (15, 'Rob', 'Harrington', 'Development', 1, 'Newton, MA', '781-864-2250', '570-996-5577', 'robot252@yahoo.com')");
             },
             function(tx, error) {
                 alert('Transaction error ' + error);
